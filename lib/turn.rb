@@ -62,7 +62,7 @@ def turn(board)
   puts ("Please enter 1-9:")
   input = gets.strip
   index = input_to_index(input)
-  if (valid_move?(index) == true && position_taken?(board, index) == true)
+  if (valid_move?(index) == true && position_taken?(board, index) == false)
     puts "This is a valid move"
   end
 end
