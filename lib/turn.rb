@@ -31,11 +31,12 @@ end
 
 display_board(test_board)
 
-
-def  valid_move?(arg)
+#validate move method
+def valid_move?(arg)
 
 end
 
+#move the piece method
 def move(arg)
 
 end
