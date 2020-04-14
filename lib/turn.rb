@@ -36,8 +36,7 @@ end
 
 #convert input to index
 def input_to_index(input)
-  index = input.to_i
-  return index
+  return input.to_i
 end
 
 #validate move method
@@ -61,6 +60,7 @@ end
 #defines the player's turn
 def turn(board)
   puts ("Please enter 1-9:")
+  input = gets.
 end
 
 #move the piece method
