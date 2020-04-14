@@ -16,6 +16,7 @@
 
 #test variables
 test_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+test_move = 4
 
 
 #display board method
@@ -33,6 +34,11 @@ display_board(test_board)
 
 #validate move method
 def valid_move?(arg)
+
+end
+
+#position taken
+def position_taken?(arg)
 
 end
 
