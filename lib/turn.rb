@@ -14,8 +14,9 @@
 
 #----------------------#
 
-def display_board()
-
+def display_board(board)
+  row = "-----------"
+  puts " #{board[0]} | #{board[0]} | #{board[0]} "
 end
 
 def  valid_move?()
