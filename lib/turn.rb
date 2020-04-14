@@ -57,6 +57,7 @@ def position_taken?(board, index)
 end
 
 #move the piece method
-def move(arg)
-
+def move(board, index, token="X")
+  board[index] = token
+  return board
 end
