@@ -68,6 +68,8 @@ def turn(board)
     puts "A token already exists there. Please enter a new move."
   else
     puts "This is not a valid move. Please enter a new move."
+    input = gets.strip
+    index = input_to_index(input)
   end
 end
 
