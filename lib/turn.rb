@@ -64,6 +64,8 @@ def turn(board)
   index = input_to_index(input)
   if (valid_move?(index) == true && position_taken?(board, index) == false)
     puts "This is a valid move"
+  elsif (valid_move?(index) == true && position_taken?(board, index) == true)
+    puts "A token already exists there. Please enter a new move."
   else
     puts "This is not a valid move. Please enter a new move."
   end
