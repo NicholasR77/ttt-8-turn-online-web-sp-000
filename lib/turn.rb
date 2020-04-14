@@ -14,6 +14,11 @@
 
 #----------------------#
 
+#test variables
+test_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+
+#display board method
 def display_board(board)
   row = "-----------"
 
@@ -24,10 +29,13 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def  valid_move?()
+display_board([])
+
+
+def  valid_move?(arg)
 
 end
 
-def move()
+def move(arg)
 
 end
