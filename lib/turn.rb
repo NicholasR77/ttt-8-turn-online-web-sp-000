@@ -36,7 +36,7 @@ end
 
 #convert input to index
 def input_to_index(input)
-  return input.to_i
+  return input.to_i - 1
 end
 
 #validate move method
