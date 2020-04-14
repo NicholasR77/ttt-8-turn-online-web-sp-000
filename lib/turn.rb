@@ -18,8 +18,6 @@
 test_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 test_move = 4
 
-
-
 #welcoming the user
 def welcome
   puts "Hello there! Welcome to Tic-Tac-Toe!"
@@ -35,8 +33,6 @@ def display_board(board)
   puts row
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-
-#display_board(test_board)
 
 #convert input to index
 def input_to_index(input)
