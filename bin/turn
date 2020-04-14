@@ -11,4 +11,4 @@ welcome
 display_board(board)
 
 #begin a turn in the game
-turn(board)
+#turn(board)
