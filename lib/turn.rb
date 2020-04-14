@@ -42,8 +42,12 @@ def valid_move?(index)
 end
 
 #position taken
-def position_taken?(arg)
-
+def position_taken?(board, index)
+  if (board[index] == " " || board[index] == "" || board[index] == nil)
+    return false
+  elsif (board[index] == "X" || board[index] == "O")
+    return true
+  end
 end
 
 #move the piece method
