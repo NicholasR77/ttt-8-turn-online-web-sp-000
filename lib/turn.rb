@@ -35,8 +35,9 @@ display_board(test_board)
 #validate move method
 def valid_move?(index)
   if (index >= 0 && index <= 8)
-
+    return true
   else
+    return false
   end
 end
 
