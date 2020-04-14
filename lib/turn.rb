@@ -19,6 +19,12 @@ test_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 test_move = 4
 
 
+
+#welcoming the user
+def welcome
+  puts "Hello there! Welcome to Tic-Tac-Toe!"
+end
+
 #display board method
 def display_board(board)
   row = "-----------"
