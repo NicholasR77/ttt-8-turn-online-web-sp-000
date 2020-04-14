@@ -58,6 +58,11 @@ def position_taken?(board, index)
   end
 end
 
+#defines the player's turn
+def turn(board)
+
+end
+
 #move the piece method
 def move(board, index, token="X")
   board[index] = token
