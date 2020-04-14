@@ -60,7 +60,7 @@ end
 
 #defines the player's turn
 def turn(board)
-
+  puts ("Please enter 1-9:")
 end
 
 #move the piece method
