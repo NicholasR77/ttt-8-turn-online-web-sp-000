@@ -2,7 +2,7 @@
 
 #get input
 
-#convert input to ibndex
+#convert input to index
 
 #if index is validation
   #make the move for index
@@ -33,8 +33,11 @@ end
 display_board(test_board)
 
 #validate move method
-def valid_move?(arg)
-
+def valid_move?(index)
+  if (index >= 0 && index =< 8)
+    
+  else
+  end
 end
 
 #position taken
