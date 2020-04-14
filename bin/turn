@@ -9,3 +9,6 @@ welcome
 
 #display the board
 display_board(board)
+
+#begin a turn in the game
+turn(board)
